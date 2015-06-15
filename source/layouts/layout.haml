@@ -1,0 +1,15 @@
+!!! 5
+%html.no-js.sticky
+  %head
+    %meta{ :charset => 'utf-8' }/
+    %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1' }/
+
+    %title George Bejan
+
+    %meta{ :name => 'description', :content => 'personal website of George Bejan' }/
+    %meta{ :name => 'viewport', :content => 'width=device-width' }/
+    = stylesheet_link_tag 'all'
+    %link{:href => "http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco", :rel => "stylesheet", :type => "text/css"}/
+
+  %body
+    ~ yield

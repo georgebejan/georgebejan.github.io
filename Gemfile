@@ -16,3 +16,7 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem "haml"
 
 gem "middleman-deploy"
+
+gem "middleman-syntax"
+
+gem "bootstrap-sass", :require => false
