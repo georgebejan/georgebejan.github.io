@@ -9,6 +9,7 @@ body {
 .content {
   width: 75%;
   margin: 0 auto;
+  font-size: 14px;
 }
 
 .name {
@@ -36,11 +37,27 @@ a:visited {
   color: #000;
 }
 
+a:link {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
 .image {
   float: left;
-  width: 532px;
+  width: 440px;
 }
 
 .info {
-  margin-left: 120px;
+  padding-left: 56px;
+  overflow: hidden;
+}
+
+.cv {
+  a:link, a:visited {
+    color: #F80; 
+  }
+  text-decoration: underline;
 }
