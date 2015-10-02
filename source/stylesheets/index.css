@@ -55,9 +55,13 @@ a:hover {
   overflow: hidden;
 }
 
+.cv a:link{
+   
+     color: #F80;
+};
+.cv a:visited {
+    color: #F80;
+};
 .cv {
-  a:link, a:visited {
-    color: #F80; 
-  }
   text-decoration: underline;
-}
+};
